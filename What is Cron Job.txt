@@ -1,0 +1,13 @@
+What is Cron Job:
+A cron job is a Linux command used for scheduling tasks to be executed sometime in the future.
+This is normally used to schedule a job that is executed periodically – for example,
+to send out a notice every morning.
+Some scripts, such as Drupal and WHMCS may require you to set up cron jobs to perform certain functions.
+For most cron jobs, there are three components present:
+The script that is to be called or executed.
+The command that executes the script on a reoccurring basis. This is typically set in cPanel.
+The action or output of the script, which depends on what the script being called does. Frequently,
+scripts called as cron jobs modify files or databases. However, they can perform other tasks that do not modify data on the server as well,
+such as sending out email notifications.
+Most scripts that require the use of a cron job will give you specific instructions on what needs to be setup,
+ frequently giving examples.
